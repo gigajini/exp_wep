@@ -11,16 +11,26 @@ body{
     font-family: 'Merriweather Sans', sans-serif;
 }
 
-    a:link{
+a:link{
     text-decoration: none;
     color: black;
 }
 
-    a:visited{
+a:visited{
     text-decoration: none;
     color: black;
 }
 
+a:hover{
+    color:#D02C0D;
+}
+
+a:active {
+    color: white;
+  }
+
+
+  
 
 /* header 시작 */
             /* header_top 시작 */
@@ -220,6 +230,13 @@ article h4{
     margin-bottom: 301px;
 }
 
+.fa-arrow-circle-up{
+    color:white;
+    position: fixed;
+    bottom:10%;
+    right:12%;
+}
+
 footer {
     margin-top: 200px;
     line-height: 2.3em;
@@ -228,3 +245,4 @@ footer {
 footer span {
     color: #D02C0D;
 }
+

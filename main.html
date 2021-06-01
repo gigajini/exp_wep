@@ -6,10 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>exp_wep</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="css/main.css" rel="stylesheet" href="style.css">   
+    <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+    <script rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,500;0,700;1,300&display=swap" rel="stylesheet">
-    <link href="main.css" rel="stylesheet" href="style.css">   
+
 </head>
 <body>
+    <a></a>   <!-- 내부페이지로 이동할 때 완전히 위로 올라가지 않음-->
     <header>
         <div class="header_top">
             <h1>preciew to content</h1>
@@ -79,10 +84,19 @@
             <h4><a href="#">read more</a></h4>
         </article>
     </section>
+    
+
+    <!-- 화살표 top버튼 추가-->
+    <a id="topBtn" onclick="$('html').animate({scrollTop : 0},800)">
+        <i class="fas fa-arrow-circle-up fa-4x"></i>
+    </a>
+ 
     <footer>
         Excerps from <span>Areopagitica</span> by John Milton, <br>
         The Projuct Gurenberg Images from <span>humchuom @ababanan</span> <br>
         2021
-    </footer>
+    </footer>  
+    <script src="js/main.js"></script>
+
 </body>
 </html>

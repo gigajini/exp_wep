@@ -101,6 +101,10 @@ h2:last-child{
     margin-left: 0;
 }
 
+img:hover{
+    opacity: 0.5;
+}
+
 .grayhover:link{
     color:#C0C0C2;
 }
